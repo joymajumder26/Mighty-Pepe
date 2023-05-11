@@ -1,0 +1,373 @@
+/******************************************
+    Version: 1.0
+/****************************************** */
+
+@media (max-width: 1310px) {}
+
+@media (max-width: 1200px) {
+  .header_style_01 .navbar-brand {
+    padding-right: 0;
+  }
+
+  .container-fluid {
+    width: 100%;
+    padding: 0 15px;
+  }
+
+  .container {
+    width: 90%;
+  }
+
+  .first-section h2 {
+    font-size: 48px;
+  }
+
+  .navbar-nav li {
+    margin: 0px 5px;
+  }
+
+  .header_style_01 {
+    padding: 20px 20px !important;
+  }
+}
+
+@media (max-width: 1158px) {
+  .header_style_01 .navbar-default .navbar-nav>li>a {
+    font-size: 14px;
+  }
+
+  .first-section .lead {
+    font-size: 18px;
+  }
+
+  .navbar-default .btn-light {
+    display: none;
+  }
+
+  .navbar-nav li {
+    margin: 0px 5px;
+  }
+}
+
+@media (max-width: 1120px) {
+  .navbar-nav li {
+    margin: 0px 5px;
+  }
+
+  .header_style_01 .navbar-default .navbar-nav>li a {
+    padding: 15px 10px;
+  }
+
+  .header_style_01 {
+    padding: 20px 30px !important;
+  }
+}
+
+@media (max-width: 1000px) {
+  .main-section {
+    padding: 0px;
+  }
+
+  /* about section */
+  .about-section {
+    padding: 100px 0;
+  }
+
+  .about-section .about {
+    padding-left: 30px;
+    margin-top: 40px;
+    /* background: #000; */
+  }
+
+  .about-section-center {
+    display: block;
+  }
+
+  /* tokenomics-section */
+
+  .tokenmics-section-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tokenomics-data-entry {
+    margin-top: 40px;
+  }
+
+  .phase-2 {
+    margin-left: 50px !important;
+  }
+
+  .navbar-default .btn-light {
+    display: block;
+    width: 100%;
+    border: 0 !important;
+    padding: 0 !important;
+    margin: -8px -2px 0 !important;
+    line-height: 1 !important;
+  }
+
+  .navbar-collapse {
+    margin-top: 15px;
+  }
+
+  .header_style_01 {
+    display: block;
+    left: 0;
+    padding: 20px 0px !important;
+    position: relative;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 111;
+  }
+
+  .navbar-default .navbar-toggle {
+    border-color: black;
+    color: #fff !important;
+    background-color: white;
+    border-radius: 15px 0px 15px 0px;
+  }
+
+  .navbar-default .navbar-toggle:hover,
+  .navbar-default .navbar-toggle:focus {
+    border-color: black;
+    background-color: white;
+  }
+
+  .navbar-default .navbar-collapse,
+  .navbar-default .navbar-form {
+    border-color: transparent;
+  }
+
+  .navbar-header {
+    float: none;
+  }
+
+  .navbar-left,
+  .navbar-right {
+    float: none !important;
+  }
+
+  .navbar-toggle {
+    display: block;
+  }
+
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  }
+
+  .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+  }
+
+  .navbar-collapse.collapse {
+    display: none !important;
+  }
+
+  .navbar-nav {
+    float: none !important;
+    margin-top: 7.5px;
+  }
+
+  .navbar-nav>li {
+    float: none;
+  }
+
+  .navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .collapse.in {
+    display: block !important;
+  }
+
+  .affix-top {
+    overflow: hidden;
+    visibility: visible;
+    opacity: 1;
+    top: 0 !important;
+  }
+
+  .header_style_01 .navbar-default .navbar-nav>li a {
+    padding: 10px 20px;
+  }
+
+  .first-section .col-md-6 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .social-links,
+  .macbookright {
+    display: none !important;
+  }
+
+  .main-timeline .timeline-content ul {
+    margin: 0;
+  }
+
+  /* card */
+  .card-design {
+    border: 2px solid white;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    /* max-height: 250px; */
+    max-width: 100%;
+    background-color: #264a20;
+    color: white;
+    margin-right: 20px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 992px) {
+  .tokenmics-section-center-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 5rem;
+  }
+
+  .tokenomics-data-entry {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .widget-title img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .mightImage {
+    padding: 50px 0 0 0;
+  }
+}
+
+@media (max-width: 768px) {
+  body.building_version .first-section h2 {
+    font-size: 34px;
+  }
+
+  body.politics_version .issuse-wrap2 {
+    margin-top: 30px;
+  }
+
+  body.seo_version .nopadtop {
+    padding-top: 120px;
+  }
+
+  body.host_version .affix,
+  body.host_version .header_style_01 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  body.host_version .stat-wrap .col-md-4 {
+    margin: 15px 0;
+  }
+
+  .tokenomics-section .TOKENNOMICS {
+    font-size: 50px;
+  }
+
+  .questions {
+    font-size: 50px;
+  }
+
+  .footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-links {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 600px) {
+
+  body.host_version .btn-light,
+  body.app_version .btn-light {
+    font-size: 14px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    text-align: center;
+    width: 40% !important;
+  }
+
+  body.app_version .btn-light i {
+    display: none !important;
+  }
+
+  .about-section .about h4 {
+    margin-left: 0px;
+  }
+
+  .tokenomics-section .TOKENNOMICS {
+    font-size: 35px;
+  }
+
+  .about-section .about h4 {
+    margin-left: 0px;
+  }
+
+  .tokenomics-section ul li {
+    display: flex;
+    align-items: center;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .tokenomics-section ul li p {
+    font-size: 16px;
+  }
+
+  .h2,
+  h2 {
+    font-size: 28px;
+  }
+
+  .token-data {
+    margin: 0 30px;
+  }
+
+  .token-data li {
+    margin: 25px 0;
+    font-size: 14px;
+  }
+
+  .list-margin {
+    margin-top: 0;
+  }
+
+  .token-data ul {
+    list-style: none;
+    margin: 0;
+  }
+
+  .foot-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .card-list {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+  }
+
+  .mightImage img {
+    max-width: 100%;
+    height: auto;
+  }
+
+}
